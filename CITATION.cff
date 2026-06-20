@@ -9,6 +9,7 @@ authors:
 version: 1.0.0
 date-released: "2026-06-20"
 url: "https://github.com/marouanetakie/morocco-metadb"
+doi: "10.5281/zenodo.20778483"
 license: MIT
 keywords:
   - phytochemistry

@@ -1,5 +1,6 @@
-# MoroccoMetaDB
+# MoroccoMetaDB 🌿
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20778483.svg)](https://doi.org/10.5281/zenodo.20778483)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://python.org)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://marouanetakie-morocco-metadb.streamlit.app)
