@@ -68,12 +68,14 @@ def search_plants(query=None, country=None, family=None):
 
 # ── Compounds ─────────────────────────────────────────────────────────────
 
-def add_compound(plant_id, name, class_=None, subclass=None,
+def add_compound(plant_id, name, class_=None, compound_class=None, subclass=None,
                  molecular_formula=None, molecular_weight=None,
                  smiles=None, inchikey=None, pubchem_cid=None,
                  detection_method=None, mz_observed=None,
                  ionization_mode=None, rt_min=None,
                  fragment_ions=None, adduct=None, notes=None):
+    if compound_class and not class_:
+        class_ = compound_class
     conn = get_connection()
     try:
         c = conn.execute(
@@ -354,6 +356,10 @@ def get_stats():
         ).fetchall()
         return {
             "totals":              totals,
+            "total_plants":        totals["plants"],
+            "total_compounds":     totals["compounds"],
+            "total_bioactivities": totals["bioactivities"],
+            "total_references":    totals["references"],
             "by_country":          [dict(r) for r in by_country],
             "by_family":           [dict(r) for r in by_family],
             "by_class":            [dict(r) for r in by_class],
