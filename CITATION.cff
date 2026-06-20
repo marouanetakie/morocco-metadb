@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this database, please cite it as below."
+title: "MoroccoMetaDB: Open phytochemical database of North African medicinal plants"
+authors:
+  - family-names: Takie
+    given-names: Marouane
+    orcid: "https://orcid.org/0009-0009-8621-8548"
+    affiliation: "Université Sidi Mohamed Ben Abdellah (USMBA), Fès, Morocco"
+version: 1.0.0
+date-released: "2026-06-20"
+url: "https://github.com/marouanetakie/morocco-metadb"
+license: MIT
+keywords:
+  - phytochemistry
+  - medicinal plants
+  - North Africa
+  - Morocco
+  - Erodium moschatum
+  - Reseda alba
+  - UPLC-ESI-MS
+  - molecular docking
+  - ethnobotany
+  - open database
