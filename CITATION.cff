@@ -5,7 +5,13 @@ authors:
   - family-names: Takie
     given-names: Marouane
     orcid: "https://orcid.org/0009-0009-8621-8548"
-    affiliation: "Université Sidi Mohamed Ben Abdellah (USMBA), Fès, Morocco"
+    affiliation: "Laboratory of Biotechnology, Conservation and Valorization of Bioresources (LBCVB), Faculty of Sciences Dhar El Mahraz, USMBA, Fès, Morocco"
+  - family-names: Lyoussi
+    given-names: Badiaa
+    affiliation: "Laboratory of Biotechnology, Conservation and Valorization of Bioresources (LBCVB), Faculty of Sciences Dhar El Mahraz, USMBA, Fès, Morocco"
+  - family-names: Benjelloun
+    given-names: Ahmed Samir
+    affiliation: "Laboratory of Biotechnology, Conservation and Valorization of Bioresources (LBCVB), Faculty of Sciences Dhar El Mahraz, USMBA, Fès, Morocco"
 version: 1.0.0
 date-released: "2026-06-20"
 url: "https://github.com/marouanetakie/morocco-metadb"
