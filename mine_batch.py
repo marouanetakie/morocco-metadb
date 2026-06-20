@@ -27,6 +27,17 @@ PLANTS = [
     "Pistacia lentiscus",
     "Tetraclinis articulata",
     "Argania spinosa",
+    # Batch 3
+    "Centaurium erythraea",
+    "Ajuga iva",
+    "Calycotome villosa",
+    "Withania somnifera",
+    "Datura stramonium",
+    "Capparis spinosa",
+    "Juniperus phoenicea",
+    "Quercus suber",
+    "Ceratonia siliqua",
+    "Arbutus unedo",
     # Batch 2
     "Nigella sativa",
     "Opuntia ficus-indica",
