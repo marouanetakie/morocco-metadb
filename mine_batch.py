@@ -27,6 +27,17 @@ ALGERIAN_PLANTS = {
     "Anvillea radiata",
     "Oudneya africana",
     "Haloxylon articulatum",
+    # Batch 13
+    "Thymelaea hirsuta",
+    "Pistacia atlantica",
+    "Juniperus oxycedrus",
+    "Calycotome spinosa",
+    "Atractylis gummifera",
+    "Hertia cheirifolia",
+    "Ammoides pusilla",
+    "Ormenis mixta",
+    "Centaurea tougourensis",
+    "Plantago major",
 }
 
 TUNISIAN_PLANTS = {
@@ -179,6 +190,17 @@ PLANTS = [
     "Phyllanthus emblica",
     "Boswellia sacra",
     "Syzygium aromaticum",
+    # Batch 13 — Algeria antimicrobial/anticancer
+    "Thymelaea hirsuta",
+    "Pistacia atlantica",
+    "Juniperus oxycedrus",
+    "Calycotome spinosa",
+    "Atractylis gummifera",
+    "Hertia cheirifolia",
+    "Ammoides pusilla",
+    "Ormenis mixta",
+    "Centaurea tougourensis",
+    "Plantago major",
 ]
 
 
