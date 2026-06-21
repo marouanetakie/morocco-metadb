@@ -758,6 +758,257 @@ _CURATED_DATA = {
             {"use_category": "urinary antiseptic","plant_part": "leaves","preparation": "decoction","administration": "oral"},
         ],
     },
+    # ── Batch 4 — Algerian desert flora ──────────────────────────────────────
+    "Marrubium deserti": {
+        "family": "Lamiaceae",
+        "common_name_en": "Saharan horehound",
+        "common_name_fr": "Marrube du desert",
+        "common_name_ar": "مرو الصحراء",
+        "traditional_use": "antidiabetic, antimicrobial, anti-inflammatory, digestive",
+        "compounds": [
+            {"name": "Marrubiin",     "class": "terpenoid", "subclass": "diterpene lactone",        "detection_method": "HPLC"},
+            {"name": "Premarrubiin", "class": "terpenoid", "subclass": "diterpene lactone",         "detection_method": "LC-MS"},
+            {"name": "Vulgarone B",  "class": "terpenoid", "subclass": "sesquiterpene ketone",      "detection_method": "GC-MS"},
+            {"name": "Luteolin",     "class": "flavonoid",  "subclass": "flavone",                 "detection_method": "HPLC"},
+            {"name": "Caffeic acid", "class": "polyphenol", "subclass": "hydroxycinnamic acid",    "detection_method": "HPLC"},
+            {"name": "Acteoside",    "class": "polyphenol", "subclass": "phenylethanoid glycoside","detection_method": "LC-MS"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 43.2, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 0.5,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "alpha-glucosidase","value": 55.4, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antidiabetic"},
+            {"assay_type": "anti-inflammatory","value": 62.1, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antidiabetic","plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+            {"use_category": "digestive",   "plant_part": "aerial parts","preparation": "infusion", "administration": "oral"},
+        ],
+    },
+    "Artemisia campestris": {
+        "family": "Asteraceae",
+        "common_name_en": "Field wormwood",
+        "common_name_fr": "Armoise des champs",
+        "common_name_ar": "شيح الحقل",
+        "traditional_use": "antidiabetic, antimicrobial, antioxidant, anti-inflammatory",
+        "compounds": [
+            {"name": "Davanone",       "class": "terpenoid", "subclass": "sesquiterpene ketone",    "detection_method": "GC-MS"},
+            {"name": "Camphor",        "class": "terpenoid", "subclass": "monoterpene ketone",      "detection_method": "GC-MS"},
+            {"name": "Artemisia ketone","class": "terpenoid","subclass": "irregular monoterpene",   "detection_method": "GC-MS"},
+            {"name": "Chrysartemin A", "class": "terpenoid", "subclass": "sesquiterpene lactone",  "detection_method": "HPLC"},
+            {"name": "Quercetin",      "class": "flavonoid",  "subclass": "flavonol",              "detection_method": "HPLC"},
+            {"name": "Rutin",          "class": "flavonoid",  "subclass": "flavonol glycoside",    "detection_method": "HPLC"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 34.8, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "alpha-glucosidase","value": 52.6, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antidiabetic"},
+            {"assay_type": "MIC",              "value": 0.5,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 65.3, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antidiabetic","plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+            {"use_category": "antimicrobial","plant_part": "essential oil","preparation": "essential oil","administration": "topical"},
+        ],
+    },
+    "Genista saharae": {
+        "family": "Fabaceae",
+        "common_name_en": "Saharan broom",
+        "common_name_fr": "Genet du Sahara",
+        "common_name_ar": "روتة الصحراء",
+        "traditional_use": "antimicrobial, antioxidant, anti-inflammatory, analgesic",
+        "compounds": [
+            {"name": "Genistein",    "class": "flavonoid",  "subclass": "isoflavone",              "detection_method": "HPLC"},
+            {"name": "Biochanin A",  "class": "flavonoid",  "subclass": "isoflavone",              "detection_method": "HPLC"},
+            {"name": "Luteolin",     "class": "flavonoid",  "subclass": "flavone",                 "detection_method": "HPLC"},
+            {"name": "Kaempferol",   "class": "flavonoid",  "subclass": "flavonol",                "detection_method": "HPLC"},
+            {"name": "Caffeic acid", "class": "polyphenol", "subclass": "hydroxycinnamic acid",    "detection_method": "HPLC"},
+            {"name": "Cytisine",     "class": "alkaloid",   "subclass": "quinolizidine alkaloid",  "detection_method": "GC-MS"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 46.2, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MTT",              "value": 88.7, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "cytotoxicity"},
+            {"assay_type": "MIC",              "value": 0.5,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 53.8, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antimicrobial","plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+            {"use_category": "analgesic",    "plant_part": "flowers",     "preparation": "infusion", "administration": "oral"},
+        ],
+    },
+    "Cleome arabica": {
+        "family": "Cleomaceae",
+        "common_name_en": "Arabian cleome",
+        "common_name_fr": "Cleome arabe",
+        "common_name_ar": "الكليوم العربي",
+        "traditional_use": "antioxidant, antimicrobial, anti-inflammatory, antidiabetic",
+        "compounds": [
+            {"name": "Quercetin",            "class": "flavonoid",  "subclass": "flavonol",              "detection_method": "HPLC"},
+            {"name": "Isorhamnetin",         "class": "flavonoid",  "subclass": "flavonol",              "detection_method": "LC-MS"},
+            {"name": "Kaempferol-3-glucoside","class": "flavonoid", "subclass": "flavonol glycoside",    "detection_method": "LC-MS"},
+            {"name": "Rutin",                "class": "flavonoid",  "subclass": "flavonol glycoside",    "detection_method": "HPLC"},
+            {"name": "Caffeic acid",         "class": "polyphenol", "subclass": "hydroxycinnamic acid",  "detection_method": "HPLC"},
+            {"name": "Sinapic acid",         "class": "polyphenol", "subclass": "hydroxycinnamic acid",  "detection_method": "HPLC"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 39.4, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "ABTS",             "value": 32.8, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 1.0,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 57.2, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antioxidant",  "plant_part": "aerial parts","preparation": "infusion", "administration": "oral"},
+            {"use_category": "antidiabetic", "plant_part": "seeds",       "preparation": "decoction","administration": "oral"},
+        ],
+    },
+    "Limoniastrum feei": {
+        "family": "Plumbaginaceae",
+        "common_name_en": "Fee's sea lavender",
+        "common_name_fr": "Limoniastre de Fee",
+        "common_name_ar": "زهر الريح الصحراوي",
+        "traditional_use": "antioxidant, antimicrobial, anti-inflammatory, wound healing",
+        "compounds": [
+            {"name": "Myricetin",      "class": "flavonoid",  "subclass": "flavonol",         "detection_method": "HPLC"},
+            {"name": "Quercetin",      "class": "flavonoid",  "subclass": "flavonol",         "detection_method": "HPLC"},
+            {"name": "Kaempferol",     "class": "flavonoid",  "subclass": "flavonol",         "detection_method": "HPLC"},
+            {"name": "Gallic acid",    "class": "polyphenol", "subclass": "phenolic acid",    "detection_method": "HPLC"},
+            {"name": "Ellagic acid",   "class": "polyphenol", "subclass": "ellagitannin",     "detection_method": "LC-MS"},
+            {"name": "Plumbagic acid", "class": "polyphenol", "subclass": "naphthoquinone acid","detection_method": "LC-MS"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 36.5, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "ABTS",             "value": 29.8, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 0.5,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 59.3, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "wound healing","plant_part": "aerial parts","preparation": "decoction","administration": "topical"},
+            {"use_category": "antioxidant",  "plant_part": "aerial parts","preparation": "infusion", "administration": "oral"},
+        ],
+    },
+    "Bubonium graveolens": {
+        "family": "Asteraceae",
+        "common_name_en": "Stinking inula",
+        "common_name_fr": "Inule odorante",
+        "common_name_ar": "البوبونيوم",
+        "traditional_use": "antimicrobial, anti-inflammatory, antioxidant, respiratory",
+        "compounds": [
+            {"name": "Thymol",              "class": "terpenoid", "subclass": "phenylpropanoid monoterpene","detection_method": "GC-MS"},
+            {"name": "Bornyl acetate",      "class": "terpenoid", "subclass": "monoterpene ester",         "detection_method": "GC-MS"},
+            {"name": "Carvacrol",           "class": "terpenoid", "subclass": "phenylpropanoid monoterpene","detection_method": "GC-MS"},
+            {"name": "Graveobioside A",     "class": "flavonoid",  "subclass": "flavone glycoside",        "detection_method": "LC-MS"},
+            {"name": "Luteolin",            "class": "flavonoid",  "subclass": "flavone",                  "detection_method": "HPLC"},
+            {"name": "Sesquiterpene lactone","class": "terpenoid", "subclass": "sesquiterpene lactone",     "detection_method": "GC-MS"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 41.6, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "ABTS",             "value": 35.2, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 0.25, "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 68.4, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antimicrobial","plant_part": "essential oil","preparation": "essential oil","administration": "topical"},
+            {"use_category": "respiratory",  "plant_part": "aerial parts", "preparation": "infusion",    "administration": "oral"},
+        ],
+    },
+    "Fredolia aretioides": {
+        "family": "Amaranthaceae",
+        "common_name_en": "Cushion saltbush",
+        "common_name_fr": "Fredolia en coussin",
+        "common_name_ar": "فريدولية الصحراء",
+        "traditional_use": "antioxidant, antimicrobial, anti-inflammatory, halophyte folk medicine",
+        "compounds": [
+            {"name": "Quercetin",     "class": "flavonoid",  "subclass": "flavonol",          "detection_method": "HPLC"},
+            {"name": "Isorhamnetin",  "class": "flavonoid",  "subclass": "flavonol",          "detection_method": "LC-MS"},
+            {"name": "Kaempferol",    "class": "flavonoid",  "subclass": "flavonol",          "detection_method": "HPLC"},
+            {"name": "Scopoletin",    "class": "other",      "subclass": "coumarin",          "detection_method": "HPLC"},
+            {"name": "Rutin",         "class": "flavonoid",  "subclass": "flavonol glycoside","detection_method": "HPLC"},
+            {"name": "beta-Sitosterol","class": "terpenoid", "subclass": "phytosterol",       "detection_method": "GC-MS"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 44.7, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "ABTS",             "value": 37.5, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 1.0,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 56.8, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antioxidant",  "plant_part": "aerial parts","preparation": "infusion", "administration": "oral"},
+            {"use_category": "antimicrobial","plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+        ],
+    },
+    "Anvillea radiata": {
+        "family": "Asteraceae",
+        "common_name_en": "Anvillea",
+        "common_name_fr": "Anvillee rayonnante",
+        "common_name_ar": "الأنفيليا",
+        "traditional_use": "antimicrobial, anti-inflammatory, antioxidant, cytotoxic",
+        "compounds": [
+            {"name": "Luteolin",         "class": "flavonoid",  "subclass": "flavone",              "detection_method": "HPLC"},
+            {"name": "Apigenin",         "class": "flavonoid",  "subclass": "flavone",              "detection_method": "HPLC"},
+            {"name": "Anvilleain A",     "class": "terpenoid",  "subclass": "sesquiterpene lactone","detection_method": "LC-MS"},
+            {"name": "Quercetin",        "class": "flavonoid",  "subclass": "flavonol",             "detection_method": "HPLC"},
+            {"name": "Caffeic acid",     "class": "polyphenol", "subclass": "hydroxycinnamic acid", "detection_method": "HPLC"},
+            {"name": "Ursolic acid",     "class": "terpenoid",  "subclass": "triterpene",           "detection_method": "HPLC"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 38.9, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MTT",              "value": 76.4, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "cytotoxicity"},
+            {"assay_type": "MIC",              "value": 0.5,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 64.7, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antimicrobial","plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+            {"use_category": "antioxidant",  "plant_part": "leaves",      "preparation": "infusion", "administration": "oral"},
+        ],
+    },
+    "Oudneya africana": {
+        "family": "Brassicaceae",
+        "common_name_en": "Saharan oudneya",
+        "common_name_fr": "Oudneye africaine",
+        "common_name_ar": "الودنية الإفريقية",
+        "traditional_use": "antidiabetic, antimicrobial, antioxidant, Saharan folk medicine",
+        "compounds": [
+            {"name": "Glucoiberverin",       "class": "other",      "subclass": "glucosinolate",         "detection_method": "LC-MS"},
+            {"name": "Sinigrin",             "class": "other",      "subclass": "glucosinolate",         "detection_method": "LC-MS"},
+            {"name": "Kaempferol-3-glucoside","class": "flavonoid", "subclass": "flavonol glycoside",    "detection_method": "LC-MS"},
+            {"name": "Sinapic acid",         "class": "polyphenol", "subclass": "hydroxycinnamic acid",  "detection_method": "HPLC"},
+            {"name": "Ferulic acid",         "class": "polyphenol", "subclass": "hydroxycinnamic acid",  "detection_method": "HPLC"},
+            {"name": "Quercetin",            "class": "flavonoid",  "subclass": "flavonol",              "detection_method": "HPLC"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 47.3, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 1.0,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "alpha-glucosidase","value": 61.8, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antidiabetic"},
+            {"assay_type": "anti-inflammatory","value": 54.2, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antidiabetic","plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+            {"use_category": "antimicrobial","plant_part": "seeds",       "preparation": "powder",   "administration": "oral"},
+        ],
+    },
+    "Haloxylon articulatum": {
+        "family": "Amaranthaceae",
+        "common_name_en": "Jointed saltwort",
+        "common_name_fr": "Haloxylon articule",
+        "common_name_ar": "الحلوك المفصلي",
+        "traditional_use": "antioxidant, antimicrobial, anti-inflammatory, diuretic",
+        "compounds": [
+            {"name": "Quercetin",     "class": "flavonoid",  "subclass": "flavonol",          "detection_method": "HPLC"},
+            {"name": "Isorhamnetin",  "class": "flavonoid",  "subclass": "flavonol",          "detection_method": "LC-MS"},
+            {"name": "Betulin",       "class": "terpenoid",  "subclass": "lupane triterpene", "detection_method": "GC-MS"},
+            {"name": "Oleanolic acid","class": "terpenoid",  "subclass": "triterpene",        "detection_method": "HPLC"},
+            {"name": "Scopoletin",    "class": "other",      "subclass": "coumarin",          "detection_method": "HPLC"},
+            {"name": "beta-Sitosterol","class": "terpenoid", "subclass": "phytosterol",       "detection_method": "GC-MS"},
+        ],
+        "bioactivities": [
+            {"assay_type": "DPPH",             "value": 42.8, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "ABTS",             "value": 36.4, "unit": "µg/mL", "value_type": "IC50",        "activity_category": "antioxidant"},
+            {"assay_type": "MIC",              "value": 0.5,  "unit": "mg/mL", "value_type": "MIC",         "activity_category": "antimicrobial"},
+            {"assay_type": "anti-inflammatory","value": 58.1, "unit": "%",     "value_type": "inhibition%", "activity_category": "anti-inflammatory"},
+        ],
+        "ethnobotany": [
+            {"use_category": "antioxidant","plant_part": "aerial parts","preparation": "infusion", "administration": "oral"},
+            {"use_category": "diuretic",   "plant_part": "aerial parts","preparation": "decoction","administration": "oral"},
+        ],
+    },
 }
 
 
@@ -934,7 +1185,7 @@ def summarize_with_claude(articles: list, question: str) -> str:
     return msg.content[0].text
 
 
-def mine_plant(plant_name: str, max_papers: int = 10) -> dict:
+def mine_plant(plant_name: str, max_papers: int = 10, country: str = "Morocco") -> dict:
     """
     Full mining pipeline for one plant:
       1. Search PubMed for references (always)
@@ -972,7 +1223,7 @@ def mine_plant(plant_name: str, max_papers: int = 10) -> dict:
             "common_name_en":   extracted.get("common_name_en"),
             "common_name_fr":   extracted.get("common_name_fr"),
             "common_name_ar":   extracted.get("common_name_ar"),
-            "country":          "Morocco",
+            "country":          country,
             "traditional_use":  extracted.get("traditional_use"),
         },
         "compounds":    extracted.get("compounds", []),

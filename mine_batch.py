@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Batch literature mining script for 10 North African medicinal plants.
+Batch literature mining script for North African medicinal plants.
 Usage: python3 mine_batch.py
 """
 import sys
@@ -15,8 +15,22 @@ from db.crud import (
     add_reference, link_plant_reference, get_all_plants, get_stats,
 )
 
+# Plants whose country should be Algeria; all others default to Morocco
+ALGERIAN_PLANTS = {
+    "Marrubium deserti",
+    "Artemisia campestris",
+    "Genista saharae",
+    "Cleome arabica",
+    "Limoniastrum feei",
+    "Bubonium graveolens",
+    "Fredolia aretioides",
+    "Anvillea radiata",
+    "Oudneya africana",
+    "Haloxylon articulatum",
+}
+
 PLANTS = [
-    # Batch 1
+    # Batch 1 — Morocco
     "Lavandula stoechas",
     "Artemisia herba-alba",
     "Thymus maroccanus",
@@ -27,18 +41,7 @@ PLANTS = [
     "Pistacia lentiscus",
     "Tetraclinis articulata",
     "Argania spinosa",
-    # Batch 3
-    "Centaurium erythraea",
-    "Ajuga iva",
-    "Calycotome villosa",
-    "Withania somnifera",
-    "Datura stramonium",
-    "Capparis spinosa",
-    "Juniperus phoenicea",
-    "Quercus suber",
-    "Ceratonia siliqua",
-    "Arbutus unedo",
-    # Batch 2
+    # Batch 2 — Morocco
     "Nigella sativa",
     "Opuntia ficus-indica",
     "Ziziphus lotus",
@@ -49,6 +52,28 @@ PLANTS = [
     "Globularia alypum",
     "Retama monosperma",
     "Peganum harmala",
+    # Batch 3 — Morocco
+    "Centaurium erythraea",
+    "Ajuga iva",
+    "Calycotome villosa",
+    "Withania somnifera",
+    "Datura stramonium",
+    "Capparis spinosa",
+    "Juniperus phoenicea",
+    "Quercus suber",
+    "Ceratonia siliqua",
+    "Arbutus unedo",
+    # Batch 4 — Algeria
+    "Marrubium deserti",
+    "Artemisia campestris",
+    "Genista saharae",
+    "Cleome arabica",
+    "Limoniastrum feei",
+    "Bubonium graveolens",
+    "Fredolia aretioides",
+    "Anvillea radiata",
+    "Oudneya africana",
+    "Haloxylon articulatum",
 ]
 
 
@@ -125,9 +150,10 @@ def main():
     print(f"Mining {len(to_mine)} plants ({len(existing)} already in DB)...\n")
 
     for i, plant in enumerate(to_mine, 1):
-        print(f"[{i}/{len(to_mine)}] {plant} ...", end=" ", flush=True)
+        country = "Algeria" if plant in ALGERIAN_PLANTS else "Morocco"
+        print(f"[{i}/{len(to_mine)}] {plant} ({country}) ...", end=" ", flush=True)
         try:
-            data     = mine_plant(plant, max_papers=10)
+            data     = mine_plant(plant, max_papers=10, country=country)
             plant_id = save_mined_plant(data)
             n_cpd    = len(data["compounds"])
             n_bio    = len(data["bioactivities"])
@@ -152,6 +178,10 @@ def main():
     print(f"  Docking hits:   {t['docking_results']}")
     print(f"  References:     {t['references']}")
 
+    print("\nBy country:")
+    for row in stats["by_country"]:
+        print(f"  {row['country']:<20} {row['n']} plants")
+
     print("\nBy assay type:")
     for row in stats["by_assay"]:
         print(f"  {row['assay_type']:<22} {row['n']}")
@@ -161,8 +191,8 @@ def main():
         print(f"  {row['class']:<22} {row['n']}")
 
     print("\nMost active plants:")
-    for row in stats["most_active_plants"][:12]:
-        print(f"  {row['scientific_name']:<30} {row['n_activities']} activities")
+    for row in stats["most_active_plants"][:15]:
+        print(f"  {row['scientific_name']:<32} {row['n_activities']} activities")
 
 
 if __name__ == "__main__":
