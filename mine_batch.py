@@ -146,6 +146,17 @@ PLANTS = [
     "Launaea arborescens",
     "Globularia arabica",
     "Periploca laevigata",
+    # Batch 11 — Morocco anticancer/neuroprotective
+    "Catharanthus roseus",
+    "Colchicum autumnale",
+    "Hyoscyamus niger",
+    "Vinca minor",
+    "Ruta graveolens",
+    "Ferula tingitana",
+    "Inula viscosa",
+    "Anacyclus pyrethrum",
+    "Scilla maritima",
+    "Mandragora autumnalis",
     # Batch 10 — Egypt
     "Hyphaene thebaica",
     "Moringa peregrina",
