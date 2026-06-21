@@ -55,6 +55,19 @@ LIBYAN_PLANTS = {
     "Periploca laevigata",
 }
 
+EGYPTIAN_PLANTS = {
+    "Hyphaene thebaica",
+    "Moringa peregrina",
+    "Balanites aegyptiaca",
+    "Calotropis procera",
+    "Senna alexandrina",
+    "Nymphaea lotus",
+    "Cleome droserifolia",
+    "Zilla spinosa",
+    "Pulicaria undulata",
+    "Anastatica hierochuntica",
+}
+
 PLANTS = [
     # Batch 1 — Morocco
     "Lavandula stoechas",
@@ -133,6 +146,17 @@ PLANTS = [
     "Launaea arborescens",
     "Globularia arabica",
     "Periploca laevigata",
+    # Batch 10 — Egypt
+    "Hyphaene thebaica",
+    "Moringa peregrina",
+    "Balanites aegyptiaca",
+    "Calotropis procera",
+    "Senna alexandrina",
+    "Nymphaea lotus",
+    "Cleome droserifolia",
+    "Zilla spinosa",
+    "Pulicaria undulata",
+    "Anastatica hierochuntica",
 ]
 
 
@@ -215,6 +239,8 @@ def main():
             country = "Tunisia"
         elif plant in LIBYAN_PLANTS:
             country = "Libya"
+        elif plant in EGYPTIAN_PLANTS:
+            country = "Egypt"
         else:
             country = "Morocco"
         print(f"[{i}/{len(to_mine)}] {plant} ({country}) ...", end=" ", flush=True)
