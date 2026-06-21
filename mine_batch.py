@@ -29,6 +29,19 @@ ALGERIAN_PLANTS = {
     "Haloxylon articulatum",
 }
 
+TUNISIAN_PLANTS = {
+    "Pancratium maritimum",
+    "Mesembryanthemum crystallinum",
+    "Frankenia thymifolia",
+    "Nigella arvensis",
+    "Lotus creticus",
+    "Atriplex halimus",
+    "Cynodon dactylon",
+    "Suaeda fruticosa",
+    "Cakile maritima",
+    "Haloxylon scoparium",
+}
+
 PLANTS = [
     # Batch 1 — Morocco
     "Lavandula stoechas",
@@ -74,6 +87,17 @@ PLANTS = [
     "Anvillea radiata",
     "Oudneya africana",
     "Haloxylon articulatum",
+    # Batch 5 — Tunisia
+    "Pancratium maritimum",
+    "Mesembryanthemum crystallinum",
+    "Frankenia thymifolia",
+    "Nigella arvensis",
+    "Lotus creticus",
+    "Atriplex halimus",
+    "Cynodon dactylon",
+    "Suaeda fruticosa",
+    "Cakile maritima",
+    "Haloxylon scoparium",
 ]
 
 
@@ -150,7 +174,12 @@ def main():
     print(f"Mining {len(to_mine)} plants ({len(existing)} already in DB)...\n")
 
     for i, plant in enumerate(to_mine, 1):
-        country = "Algeria" if plant in ALGERIAN_PLANTS else "Morocco"
+        if plant in ALGERIAN_PLANTS:
+            country = "Algeria"
+        elif plant in TUNISIAN_PLANTS:
+            country = "Tunisia"
+        else:
+            country = "Morocco"
         print(f"[{i}/{len(to_mine)}] {plant} ({country}) ...", end=" ", flush=True)
         try:
             data     = mine_plant(plant, max_papers=10, country=country)
