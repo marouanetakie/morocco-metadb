@@ -98,6 +98,17 @@ PLANTS = [
     "Suaeda fruticosa",
     "Cakile maritima",
     "Haloxylon scoparium",
+    # Batch 6 — Morocco
+    "Mentha spicata",
+    "Crataegus monogyna",
+    "Urginea maritima",
+    "Chamaemelum nobile",
+    "Sideritis hirsuta",
+    "Ecballium elaterium",
+    "Ferula communis",
+    "Daphne gnidium",
+    "Carlina acaulis",
+    "Ononis spinosa",
 ]
 
 
