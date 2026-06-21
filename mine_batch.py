@@ -168,6 +168,17 @@ PLANTS = [
     "Zilla spinosa",
     "Pulicaria undulata",
     "Anastatica hierochuntica",
+    # Batch 12 — Morocco antidiabetic/hepatoprotective
+    "Berberis hispanica",
+    "Trigonella foenum-graecum",
+    "Momordica charantia",
+    "Olea europaea",
+    "Silybum marianum",
+    "Cynara scolymus",
+    "Tamarindus indica",
+    "Phyllanthus emblica",
+    "Boswellia sacra",
+    "Syzygium aromaticum",
 ]
 
 
