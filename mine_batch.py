@@ -120,6 +120,16 @@ EGYPTIAN_PLANTS = {
     "Zilla spinosa",
     "Pulicaria undulata",
     "Anastatica hierochuntica",
+    # Batch 18
+    "Citrullus colocynthis",
+    "Hibiscus sabdariffa",
+    "Ammi majus",
+    "Trigonella stellata",
+    "Echinops spinosus",
+    "Centaurea aegyptiaca",
+    "Atropa belladonna",
+    "Cymbopogon proximus",
+    "Acacia nilotica",
 }
 
 PLANTS = [
@@ -287,6 +297,16 @@ PLANTS = [
     "Fagonia arabica",
     "Leptadenia pyrotechnica",
     "Cornulaca monacantha",
+    # Batch 18 — Egypt antidiabetic/antimicrobial
+    "Citrullus colocynthis",
+    "Hibiscus sabdariffa",
+    "Ammi majus",
+    "Trigonella stellata",
+    "Echinops spinosus",
+    "Centaurea aegyptiaca",
+    "Atropa belladonna",
+    "Cymbopogon proximus",
+    "Acacia nilotica",
 ]
 
 
