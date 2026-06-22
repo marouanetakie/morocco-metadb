@@ -38,6 +38,17 @@ ALGERIAN_PLANTS = {
     "Ormenis mixta",
     "Centaurea tougourensis",
     "Plantago major",
+    # Batch 14
+    "Ajuga chamaepitys",
+    "Scolymus hispanicus",
+    "Chrysanthemum trifurcatum",
+    "Eryngium campestre",
+    "Teucrium polium",
+    "Salvia verbenaca",
+    "Scorzonera undulata",
+    "Centaurium pulchellum",
+    "Echium vulgare",
+    "Paronychia argentea",
 }
 
 TUNISIAN_PLANTS = {
@@ -201,6 +212,17 @@ PLANTS = [
     "Ormenis mixta",
     "Centaurea tougourensis",
     "Plantago major",
+    # Batch 14 — Algeria antidiabetic/hepatoprotective
+    "Ajuga chamaepitys",
+    "Scolymus hispanicus",
+    "Chrysanthemum trifurcatum",
+    "Eryngium campestre",
+    "Teucrium polium",
+    "Salvia verbenaca",
+    "Scorzonera undulata",
+    "Centaurium pulchellum",
+    "Echium vulgare",
+    "Paronychia argentea",
 ]
 
 
