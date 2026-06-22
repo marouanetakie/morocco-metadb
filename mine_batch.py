@@ -96,6 +96,17 @@ LIBYAN_PLANTS = {
     "Hammada scoparia",
     "Ephedra nebrodensis",
     "Drimia numidica",
+    # Batch 17
+    "Pergularia tomentosa",
+    "Calligonum comosum",
+    "Thymelaea microphylla",
+    "Crucianella maritima",
+    "Salsola vermiculata",
+    "Limonium pruinosum",
+    "Otostegia fruticosa",
+    "Fagonia arabica",
+    "Leptadenia pyrotechnica",
+    "Cornulaca monacantha",
 }
 
 EGYPTIAN_PLANTS = {
@@ -265,6 +276,17 @@ PLANTS = [
     "Hammada scoparia",
     "Ephedra nebrodensis",
     "Drimia numidica",
+    # Batch 17 — Libya anticancer/hepatoprotective
+    "Pergularia tomentosa",
+    "Calligonum comosum",
+    "Thymelaea microphylla",
+    "Crucianella maritima",
+    "Salsola vermiculata",
+    "Limonium pruinosum",
+    "Otostegia fruticosa",
+    "Fagonia arabica",
+    "Leptadenia pyrotechnica",
+    "Cornulaca monacantha",
 ]
 
 
