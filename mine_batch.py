@@ -62,6 +62,17 @@ TUNISIAN_PLANTS = {
     "Suaeda fruticosa",
     "Cakile maritima",
     "Haloxylon scoparium",
+    # Batch 15
+    "Limonium sinuatum",
+    "Salicornia europaea",
+    "Tamarix gallica",
+    "Inula crithmoides",
+    "Arthrocnemum macrostachyum",
+    "Juncus maritimus",
+    "Spartina alterniflora",
+    "Medicago sativa",
+    "Vitex agnus-castus",
+    "Lycium europaeum",
 }
 
 LIBYAN_PLANTS = {
@@ -223,6 +234,17 @@ PLANTS = [
     "Centaurium pulchellum",
     "Echium vulgare",
     "Paronychia argentea",
+    # Batch 15 — Tunisia antimicrobial/antioxidant
+    "Limonium sinuatum",
+    "Salicornia europaea",
+    "Tamarix gallica",
+    "Inula crithmoides",
+    "Arthrocnemum macrostachyum",
+    "Juncus maritimus",
+    "Spartina alterniflora",
+    "Medicago sativa",
+    "Vitex agnus-castus",
+    "Lycium europaeum",
 ]
 
 
