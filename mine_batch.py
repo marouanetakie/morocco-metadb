@@ -130,6 +130,17 @@ EGYPTIAN_PLANTS = {
     "Atropa belladonna",
     "Cymbopogon proximus",
     "Acacia nilotica",
+    # Batch 19
+    "Hyoscyamus muticus",
+    "Solanum nigrum",
+    "Datura metel",
+    "Crinum bulbispermum",
+    "Pancratium arabicum",
+    "Narcissus tazetta",
+    "Urginea undulata",
+    "Veratrum album",
+    "Colchicum ritchii",
+    "Gloriosa superba",
 }
 
 PLANTS = [
@@ -307,6 +318,17 @@ PLANTS = [
     "Atropa belladonna",
     "Cymbopogon proximus",
     "Acacia nilotica",
+    # Batch 19 — Egypt anticancer/neuroprotective
+    "Hyoscyamus muticus",
+    "Solanum nigrum",
+    "Datura metel",
+    "Crinum bulbispermum",
+    "Pancratium arabicum",
+    "Narcissus tazetta",
+    "Urginea undulata",
+    "Veratrum album",
+    "Colchicum ritchii",
+    "Gloriosa superba",
 ]
 
 
