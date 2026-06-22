@@ -86,6 +86,16 @@ LIBYAN_PLANTS = {
     "Launaea arborescens",
     "Globularia arabica",
     "Periploca laevigata",
+    # Batch 16
+    "Capparis decidua",
+    "Ficus salicifolia",
+    "Helianthemum lippii",
+    "Pulicaria crispa",
+    "Alhagi maurorum",
+    "Launaea nudicaulis",
+    "Hammada scoparia",
+    "Ephedra nebrodensis",
+    "Drimia numidica",
 }
 
 EGYPTIAN_PLANTS = {
@@ -245,6 +255,16 @@ PLANTS = [
     "Medicago sativa",
     "Vitex agnus-castus",
     "Lycium europaeum",
+    # Batch 16 — Libya antidiabetic/antimicrobial
+    "Capparis decidua",
+    "Ficus salicifolia",
+    "Helianthemum lippii",
+    "Pulicaria crispa",
+    "Alhagi maurorum",
+    "Launaea nudicaulis",
+    "Hammada scoparia",
+    "Ephedra nebrodensis",
+    "Drimia numidica",
 ]
 
 
