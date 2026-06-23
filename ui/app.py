@@ -386,51 +386,59 @@ if page == "Dashboard":
 
     with col_map:
         st.subheader("Plants per Country")
-        country_data = pd.DataFrame({
-            "iso3":    ["MAR", "DZA", "EGY", "LBY", "TUN"],
-            "country": ["Morocco", "Algeria", "Egypt", "Libya", "Tunisia"],
-            "plants":  [63, 30, 29, 29, 20],
-        })
-        fig_map = px.choropleth(
-            country_data,
-            locations="iso3",
+        fig_map = go.Figure()
+        fig_map.add_trace(go.Choropleth(
+            locations=["MAR", "DZA", "TUN", "LBY", "EGY"],
+            z=[63, 30, 20, 29, 29],
+            text=[
+                "Morocco — 63 plants",
+                "Algeria — 30 plants",
+                "Tunisia — 20 plants",
+                "Libya — 29 plants",
+                "Egypt — 29 plants",
+            ],
             locationmode="ISO-3",
-            color="plants",
-            hover_name="country",
-            hover_data={"plants": True, "iso3": False},
-            color_continuous_scale="Greens",
-            title="Plants per country",
-            range_color=(0, 70),
+            colorscale=[
+                [0.0, "#c8e6c9"],
+                [0.3, "#66bb6a"],
+                [0.6, "#2e7d32"],
+                [1.0, "#0a2d1e"],
+            ],
+            autocolorscale=False,
+            marker_line_color="white",
+            marker_line_width=2,
+            colorbar=dict(title="Plants", thickness=15, len=0.7),
+            hovertemplate="%{text}<extra></extra>",
+        ))
+        fig_map.update_geos(
+            visible=False,
+            resolution=50,
+            scope="world",
+            showcoastlines=True,
+            coastlinecolor="#cccccc",
+            showland=True,
+            landcolor="#f0f0f0",
+            showocean=True,
+            oceancolor="#ddeeff",
+            showlakes=False,
+            showcountries=True,
+            countrycolor="white",
+            countrywidth=0.8,
+            lonaxis_range=[-18, 42],
+            lataxis_range=[18, 38],
+            center=dict(lon=12, lat=28),
         )
         fig_map.update_layout(
-            geo=dict(
-                scope="africa",
-                showframe=False,
-                showcoastlines=True,
-                coastlinecolor="lightgray",
-                showland=True,
-                landcolor="#f5f5f5",
-                showocean=True,
-                oceancolor="#e8f4f8",
-                showlakes=False,
-                showcountries=True,
-                countrycolor="white",
-                countrywidth=0.5,
-                center=dict(lat=27, lon=18),
-                projection_scale=2.8,
-                lataxis=dict(range=[14, 38]),
-                lonaxis=dict(range=[-18, 42]),
-            ),
-            margin=dict(l=0, r=0, t=30, b=0),
-            height=440,
+            height=420,
+            margin=dict(l=0, r=0, t=40, b=0),
             paper_bgcolor="white",
             font=dict(family="IBM Plex Sans", color="#1a2e22"),
             title=dict(
-                text="MoroccoMetaDB — Plant coverage across North Africa",
+                text="Plant coverage across North Africa",
                 x=0.5,
-                font=dict(size=14, color="#0a2d1e"),
+                xanchor="center",
+                font=dict(size=14, color="#0a2d1e", family="IBM Plex Sans"),
             ),
-            coloraxis_colorbar=dict(title="Plants", tickfont=dict(size=11)),
         )
         st.plotly_chart(fig_map, use_container_width=True)
 
