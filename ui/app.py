@@ -424,9 +424,9 @@ if page == "Dashboard":
             showcountries=True,
             countrycolor="white",
             countrywidth=0.8,
-            lonaxis_range=[-18, 42],
-            lataxis_range=[18, 38],
-            center=dict(lon=12, lat=28),
+            lonaxis_range=[-17.5, 37],
+            lataxis_range=[19, 38],
+            center=dict(lon=10, lat=29),
         )
         fig_map.update_layout(
             height=420,
