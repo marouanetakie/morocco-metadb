@@ -386,8 +386,8 @@ if page == "Dashboard":
 
     with col_map:
         st.subheader("Plants per Country")
-        fig_map = go.Figure()
-        fig_map.add_trace(go.Choropleth(
+        fig_map = go.Figure(go.Choropleth(
+            locationmode="ISO-3",
             locations=["MAR", "DZA", "TUN", "LBY", "EGY"],
             z=[63, 30, 20, 29, 29],
             text=[
@@ -397,7 +397,7 @@ if page == "Dashboard":
                 "Libya — 29 plants",
                 "Egypt — 29 plants",
             ],
-            locationmode="ISO-3",
+            hovertemplate="%{text}",
             colorscale=[
                 [0.0, "#c8e6c9"],
                 [0.3, "#66bb6a"],
@@ -406,38 +406,29 @@ if page == "Dashboard":
             ],
             autocolorscale=False,
             marker_line_color="white",
-            marker_line_width=2,
-            colorbar=dict(title="Plants", thickness=15, len=0.7),
-            hovertemplate="%{text}<extra></extra>",
+            marker_line_width=1.5,
+            colorbar=dict(title="Plants", thickness=12, len=0.6),
         ))
-        fig_map.update_geos(
-            visible=False,
-            resolution=50,
-            scope="world",
-            showcoastlines=True,
-            coastlinecolor="#cccccc",
-            showland=True,
-            landcolor="#f0f0f0",
-            showocean=True,
-            oceancolor="#ddeeff",
-            showlakes=False,
-            showcountries=True,
-            countrycolor="white",
-            countrywidth=0.8,
-            lonaxis_range=[-17.5, 37],
-            lataxis_range=[19, 38],
-            center=dict(lon=10, lat=29),
-        )
         fig_map.update_layout(
             height=420,
-            margin=dict(l=0, r=0, t=40, b=0),
+            margin=dict(l=0, r=0, t=10, b=0),
             paper_bgcolor="white",
-            font=dict(family="IBM Plex Sans", color="#1a2e22"),
-            title=dict(
-                text="Plant coverage across North Africa",
-                x=0.5,
-                xanchor="center",
-                font=dict(size=14, color="#0a2d1e", family="IBM Plex Sans"),
+            geo=dict(
+                scope="world",
+                resolution=50,
+                showframe=False,
+                showcoastlines=True,
+                coastlinecolor="#bbbbbb",
+                showland=True,
+                landcolor="#f0f0f0",
+                showocean=True,
+                oceancolor="#ddeeff",
+                showcountries=True,
+                countrycolor="#dddddd",
+                countrywidth=0.5,
+                lonaxis=dict(range=[-20, 40]),
+                lataxis=dict(range=[15, 40]),
+                projection_type="natural earth",
             ),
         )
         st.plotly_chart(fig_map, use_container_width=True)
