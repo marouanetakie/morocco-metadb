@@ -402,20 +402,34 @@ if page == "Dashboard":
             title="Plants per country",
             range_color=(0, 70),
         )
-        fig_map.update_geos(
-            scope="africa",
-            showcoastlines=True, coastlinecolor="#d4e8dd",
-            showland=True, landcolor="#f4f9f6",
-            showocean=True, oceancolor="#e8f4ff",
-            showcountries=True, countrycolor="#b0c8b8",
-            center={"lat": 27, "lon": 15},
-            projection_scale=2.4,
-        )
         fig_map.update_layout(
-            template="plotly_white", height=360,
-            font=dict(family="IBM Plex Sans", color="#1a2e22"),
-            paper_bgcolor="#ffffff",
+            geo=dict(
+                scope="africa",
+                showframe=False,
+                showcoastlines=True,
+                coastlinecolor="lightgray",
+                showland=True,
+                landcolor="#f5f5f5",
+                showocean=True,
+                oceancolor="#e8f4f8",
+                showlakes=False,
+                showcountries=True,
+                countrycolor="white",
+                countrywidth=0.5,
+                center=dict(lat=27, lon=18),
+                projection_scale=2.8,
+                lataxis=dict(range=[14, 38]),
+                lonaxis=dict(range=[-18, 42]),
+            ),
             margin=dict(l=0, r=0, t=30, b=0),
+            height=440,
+            paper_bgcolor="white",
+            font=dict(family="IBM Plex Sans", color="#1a2e22"),
+            title=dict(
+                text="MoroccoMetaDB — Plant coverage across North Africa",
+                x=0.5,
+                font=dict(size=14, color="#0a2d1e"),
+            ),
             coloraxis_colorbar=dict(title="Plants", tickfont=dict(size=11)),
         )
         st.plotly_chart(fig_map, use_container_width=True)
