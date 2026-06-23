@@ -213,8 +213,16 @@ details summary { color: #0a2d1e !important; font-style: italic; font-weight: 50
 </style>
 """, unsafe_allow_html=True)
 
-# ── Init DB & pending_submissions table ───────────────────────────────────
+# ── Init DB & auto-seed from CSV on first run (Streamlit Cloud) ───────────
 init_db()
+
+from db.crud import get_stats as _stats
+if _stats()["total_plants"] == 0:
+    try:
+        from data.load_from_csv import load_all_data
+        load_all_data()
+    except Exception as _e:
+        st.warning(f"Data load error: {_e}")
 
 def _init_submissions_table():
     conn = sqlite3.connect(DB_PATH)

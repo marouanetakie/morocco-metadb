@@ -1,0 +1,172 @@
+id,scientific_name,common_name_ar,common_name_fr,common_name_en,family,genus,species,country,region,is_endemic,traditional_use,created_at
+1,Erodium moschatum,أبو قنديل,Érodium musqué,Musk stork's-bill,Geraniaceae,Erodium,moschatum,Morocco,Fès-Meknès,0,"Antidiabetic, antioxidant, wound healing",2026-06-20 18:19:16
+2,Reseda alba,الرازقي الأبيض,Réséda blanc,White mignonette,Resedaceae,Reseda,alba,Morocco,Fès-Meknès,0,"Antidiabetic, anti-inflammatory, gastroprotective",2026-06-20 18:19:16
+3,Lavandula stoechas,الخزامى,Lavande stoechas,French lavender,Lamiaceae,,,Morocco,,0,"antiseptic, antispasmodic, anxiolytic, insect repellent",2026-06-20 18:40:33
+4,Artemisia herba-alba,الشيح,Armoise blanche,White wormwood,Asteraceae,,,Morocco,,0,"antidiabetic, antiparasitic, digestive, antimicrobial",2026-06-20 18:40:36
+5,Thymus maroccanus,الزعتر المغربي,Thym du Maroc,Moroccan thyme,Lamiaceae,,,Morocco,,0,"antimicrobial, respiratory, digestive, antioxidant",2026-06-20 18:40:40
+6,Mentha pulegium,الفليو,Menthe pouliot,Pennyroyal,Lamiaceae,,,Morocco,,0,"digestive, antispasmodic, antimicrobial, insect repellent",2026-06-20 18:40:45
+7,Rosmarinus officinalis,إكليل الجبل,Romarin,Rosemary,Lamiaceae,,,Morocco,,0,"antioxidant, digestive, memory enhancement, antimicrobial",2026-06-20 18:40:49
+8,Origanum compactum,الزعتر الأحمر,Origan compact,Compact oregano,Lamiaceae,,,Morocco,,0,"antimicrobial, respiratory, antioxidant, antifungal",2026-06-20 18:40:53
+9,Cistus monspeliensis,السيست,Ciste de Montpellier,Montpellier cistus,Cistaceae,,,Morocco,,0,"antioxidant, wound healing, antimicrobial, anti-inflammatory",2026-06-20 18:40:57
+10,Pistacia lentiscus,الضرو,Lentisque,Mastic tree,Anacardiaceae,,,Morocco,,0,"digestive, antimicrobial, anti-inflammatory, oral health",2026-06-20 18:41:01
+11,Tetraclinis articulata,العرعر,Thuya de Barbarie,Thuya tree,Cupressaceae,,,Morocco,,0,"antimicrobial, wound healing, rheumatism, resin use in cosmetics",2026-06-20 18:41:04
+12,Argania spinosa,الأركان,Arganier,Argan tree,Sapotaceae,,,Morocco,,0,"nutritional, cosmetic, antioxidant, skin protection",2026-06-20 18:41:08
+13,Nigella sativa,الحبة السوداء,Nigelle cultivée,Black seed,Ranunculaceae,,,Morocco,,0,"antimicrobial, antidiabetic, anti-inflammatory, respiratory",2026-06-20 18:46:57
+14,Opuntia ficus-indica,التين الشوكي,Figuier de Barbarie,Prickly pear,Cactaceae,,,Morocco,,0,"antidiabetic, antioxidant, wound healing, diuretic",2026-06-20 18:47:01
+15,Ziziphus lotus,السدرة,Jujubier lotus,Lotus jujube,Rhamnaceae,,,Morocco,,0,"antidiabetic, sedative, antidiarrheal, antioxidant",2026-06-20 18:47:04
+16,Ficus carica,التين,Figuier commun,Common fig,Moraceae,,,Morocco,,0,"antidiabetic, laxative, antioxidant, skin conditions",2026-06-20 18:47:08
+17,Urtica dioica,الحريق,Grande ortie,Stinging nettle,Urticaceae,,,Morocco,,0,"anti-inflammatory, antidiabetic, diuretic, antioxidant",2026-06-20 18:47:11
+18,Marrubium vulgare,المرو الأبيض,Marrube blanc,White horehound,Lamiaceae,,,Morocco,,0,"antidiabetic, respiratory, antispasmodic, anti-inflammatory",2026-06-20 18:47:15
+19,Salvia officinalis,المريمية,Sauge officinale,Common sage,Lamiaceae,,,Morocco,,0,"antioxidant, antimicrobial, antidiabetic, anti-inflammatory, memory",2026-06-20 18:47:18
+20,Globularia alypum,عين البقرة,Globulaire turbith,Globe daisy,Plantaginaceae,,,Morocco,,0,"antidiabetic, purgative, anti-inflammatory, antioxidant",2026-06-20 18:47:23
+21,Retama monosperma,الرتم,Retame à une graine,White weeping broom,Fabaceae,,,Morocco,,0,"antidiabetic, antimicrobial, antioxidant, anti-inflammatory",2026-06-20 18:47:26
+22,Peganum harmala,الحرمل,Harmel,African rue,Nitrariaceae,,,Morocco,,0,"antiparasitic, antidiabetic, antidepressant, antimicrobial",2026-06-20 18:47:29
+23,Centaurium erythraea,قنطوريون,Petite centaurée,Common centaury,Gentianaceae,,,Morocco,,0,"digestive, antidiabetic, antipyretic, liver tonic",2026-06-20 21:51:58
+24,Ajuga iva,كحيلة,Ivette musquée,Yellow bugle,Lamiaceae,,,Morocco,,0,"antidiabetic, antihypertensive, anti-inflammatory, antioxidant",2026-06-20 21:52:01
+25,Calycotome villosa,القندول الشوكي,Calycotome velu,Spiny broom,Fabaceae,,,Morocco,,0,"wound healing, diuretic, antioxidant, antimicrobial",2026-06-20 21:52:04
+26,Withania somnifera,الأشواغاندا,Ginseng indien,Ashwagandha,Solanaceae,,,Morocco,,0,"adaptogen, anti-inflammatory, antistress, neuroprotective, antidiabetic",2026-06-20 21:52:08
+27,Datura stramonium,الداتورة,Pomme epineuse,Thorn apple,Solanaceae,,,Morocco,,0,"antispasmodic, analgesic, respiratory (traditional, toxic plant)",2026-06-20 21:52:19
+28,Capparis spinosa,الكبر,Caprier,Caper,Capparaceae,,,Morocco,,0,"anti-inflammatory, antidiabetic, antioxidant, diuretic",2026-06-20 21:52:25
+29,Juniperus phoenicea,العرعر الفينيقي,Genevrier de Phenicie,Phoenicean juniper,Cupressaceae,,,Morocco,,0,"antimicrobial, rheumatism, diuretic, antiseptic",2026-06-20 21:52:29
+30,Quercus suber,الفلين,Chene-liege,Cork oak,Fagaceae,,,Morocco,,0,"wound healing, astringent, antioxidant, anti-inflammatory",2026-06-20 21:52:32
+31,Ceratonia siliqua,الخروب,Caroubier,Carob,Fabaceae,,,Morocco,,0,"antidiabetic, antidiarrheal, antioxidant, nutritional",2026-06-20 21:52:35
+32,Arbutus unedo,القتلب,Arbousier,Strawberry tree,Ericaceae,,,Morocco,,0,"antioxidant, urinary antiseptic, antidiabetic, astringent",2026-06-20 21:52:39
+33,Test plant,,,,Testaceae,,,Morocco,,0,,2026-06-20 21:57:49
+34,Marrubium deserti,مرو الصحراء,Marrube du desert,Saharan horehound,Lamiaceae,,,Algeria,,0,"antidiabetic, antimicrobial, anti-inflammatory, digestive",2026-06-21 13:37:37
+35,Artemisia campestris,شيح الحقل,Armoise des champs,Field wormwood,Asteraceae,,,Algeria,,0,"antidiabetic, antimicrobial, antioxidant, anti-inflammatory",2026-06-21 13:37:39
+36,Genista saharae,روتة الصحراء,Genet du Sahara,Saharan broom,Fabaceae,,,Algeria,,0,"antimicrobial, antioxidant, anti-inflammatory, analgesic",2026-06-21 13:37:41
+37,Cleome arabica,الكليوم العربي,Cleome arabe,Arabian cleome,Cleomaceae,,,Algeria,,0,"antioxidant, antimicrobial, anti-inflammatory, antidiabetic",2026-06-21 13:37:43
+38,Limoniastrum feei,زهر الريح الصحراوي,Limoniastre de Fee,Fee's sea lavender,Plumbaginaceae,,,Algeria,,0,"antioxidant, antimicrobial, anti-inflammatory, wound healing",2026-06-21 13:37:45
+39,Bubonium graveolens,البوبونيوم,Inule odorante,Stinking inula,Asteraceae,,,Algeria,,0,"antimicrobial, anti-inflammatory, antioxidant, respiratory",2026-06-21 13:37:47
+40,Fredolia aretioides,فريدولية الصحراء,Fredolia en coussin,Cushion saltbush,Amaranthaceae,,,Algeria,,0,"antioxidant, antimicrobial, anti-inflammatory, halophyte folk medicine",2026-06-21 13:37:48
+41,Anvillea radiata,الأنفيليا,Anvillee rayonnante,Anvillea,Asteraceae,,,Algeria,,0,"antimicrobial, anti-inflammatory, antioxidant, cytotoxic",2026-06-21 13:37:50
+42,Oudneya africana,الودنية الإفريقية,Oudneye africaine,Saharan oudneya,Brassicaceae,,,Algeria,,0,"antidiabetic, antimicrobial, antioxidant, Saharan folk medicine",2026-06-21 13:37:52
+43,Haloxylon articulatum,الحلوك المفصلي,Haloxylon articule,Jointed saltwort,Amaranthaceae,,,Algeria,,0,"antioxidant, antimicrobial, anti-inflammatory, diuretic",2026-06-21 13:37:53
+44,Pancratium maritimum,زنبق البحر,Lis de mer,Sea daffodil,Amaryllidaceae,,,Tunisia,,0,"antifungal, wound healing, cytotoxic, traditional coastal medicine",2026-06-21 13:44:30
+45,Mesembryanthemum crystallinum,نبات الجليد,Ficoide glaciale,Ice plant,Aizoaceae,,,Tunisia,,0,"antidiabetic, antioxidant, diuretic, coastal halophyte medicine",2026-06-21 13:44:33
+46,Frankenia thymifolia,الفرانكينية,Frankenie a feuilles de thym,Thymelaf frankenia,Frankeniaceae,,,Tunisia,,0,"antioxidant, anti-inflammatory, antimicrobial, xerophyte folk medicine",2026-06-21 13:44:36
+47,Nigella arvensis,الحبة السوداء البرية,Nigelle des champs,Field nigella,Ranunculaceae,,,Tunisia,,0,"antimicrobial, antifungal, antiparasitic, digestive",2026-06-21 13:44:39
+48,Lotus creticus,نبات اللوتس الكريتي,Lotier de Crete,Cretan trefoil,Fabaceae,,,Tunisia,,0,"antioxidant, wound healing, anti-inflammatory, coastal medicine",2026-06-21 13:44:42
+49,Atriplex halimus,الرغل,Arroche halime,Mediterranean saltbush,Amaranthaceae,,,Tunisia,,0,"antidiabetic, antioxidant, anti-inflammatory, halophyte folk medicine",2026-06-21 13:44:44
+50,Cynodon dactylon,النجيل,Chiendent pied-de-poule,Bermuda grass,Poaceae,,,Tunisia,,0,"diuretic, anti-inflammatory, hemostatic, antidiabetic",2026-06-21 13:44:47
+51,Suaeda fruticosa,سويدة شجيرية,Suede frutescente,Shrubby seablite,Amaranthaceae,,,Tunisia,,0,"antifungal, antiseptic, antioxidant, halophyte coastal medicine",2026-06-21 13:44:50
+52,Cakile maritima,الجرجير البحري,Roquette de mer,Sea rocket,Brassicaceae,,,Tunisia,,0,"antioxidant, anti-inflammatory, antimicrobial, coastal folk medicine",2026-06-21 13:44:53
+53,Haloxylon scoparium,الحلوك المكنسي,Haloxylon a balai,Scoparium haloxylon,Amaranthaceae,,,Tunisia,,0,"antioxidant, diuretic, anti-inflammatory, arid zone folk medicine",2026-06-21 13:44:55
+54,Mentha spicata,النعناع الأخضر,Menthe verte,Spearmint,Lamiaceae,,,Morocco,,0,"digestive, antispasmodic, antimicrobial, breath freshener",2026-06-21 13:51:55
+55,Crataegus monogyna,الزعرور,Aubepine a un style,Common hawthorn,Rosaceae,,,Morocco,,0,"cardioprotective, antihypertensive, antioxidant, sedative",2026-06-21 13:51:58
+56,Urginea maritima,عنصل البحر,Scille maritime,Sea squill,Asparagaceae,,,Morocco,,0,"cardiotonic, diuretic, expectorant, rat poison (toxic)",2026-06-21 13:52:01
+57,Chamaemelum nobile,البابونج الروماني,Camomille romaine,Roman chamomile,Asteraceae,,,Morocco,,0,"anti-inflammatory, antispasmodic, anxiolytic, digestive",2026-06-21 13:52:04
+58,Sideritis hirsuta,السيدريتيس المشعرة,Siderite hirsute,Hairy ironwort,Lamiaceae,,,Morocco,,0,"anti-inflammatory, antioxidant, antispasmodic, respiratory",2026-06-21 13:52:05
+59,Ecballium elaterium,قثاء الحمار,Concombre sauvage,Squirting cucumber,Cucurbitaceae,,,Morocco,,0,"purgative, anti-inflammatory, antitumor (highly toxic plant)",2026-06-21 13:52:08
+60,Ferula communis,الكلح,Ferule commune,Giant fennel,Apiaceae,,,Morocco,,0,"antispasmodic, anticoagulant, antimicrobial (toxic in high doses)",2026-06-21 13:52:11
+61,Daphne gnidium,لزاز الجبل,Daphne gnidium,Flax-leaved daphne,Thymelaeaceae,,,Morocco,,0,"purgative, antimicrobial, antitumor (highly toxic plant)",2026-06-21 13:52:14
+62,Carlina acaulis,الكارلينا,Carline acaule,Stemless carline thistle,Asteraceae,,,Morocco,,0,"antiseptic, diuretic, digestive, skin conditions",2026-06-21 13:52:16
+63,Ononis spinosa,الحسك الشوكي,Bugrane epineuse,Spiny restharrow,Fabaceae,,,Morocco,,0,"antidiabetic, diuretic, anti-inflammatory, antioxidant",2026-06-21 13:52:19
+64,Retama raetam,الرتم الأبيض,Retame retam,Raetam broom,Fabaceae,,,Libya,,0,"antidiabetic, antimicrobial, antioxidant, antipyretic",2026-06-21 14:04:27
+65,Zygophyllum album,الزيجوفيلوم الأبيض,Zygophylle blanc,White zygophyllum,Zygophyllaceae,,,Libya,,0,"antioxidant, antimicrobial, anti-inflammatory, diuretic",2026-06-21 14:04:30
+66,Echium angustifolium,لسان الثور الضيق,Viperine a feuilles etroites,Narrow-leaved viper's bugloss,Boraginaceae,,,Libya,,0,"anti-inflammatory, wound healing, antioxidant, respiratory",2026-06-21 14:04:33
+67,Euphorbia regis-jubae,فرفيون الملك يوبا,Euphorbe du roi Juba,King Juba's spurge,Euphorbiaceae,,,Libya,,0,"antitumor, antimicrobial, purgative (toxic latex)",2026-06-21 14:04:36
+68,Astragalus armatus,الأستراغالوس الشوكي,Astragale epineux,Spiny milkvetch,Fabaceae,,,Libya,,0,"antidiabetic, immunostimulant, antioxidant, wound healing",2026-06-21 14:04:39
+69,Silene villosa,السيلين المشعر,Silene villeux,Hairy campion,Caryophyllaceae,,,Libya,,0,"antioxidant, anti-inflammatory, antimicrobial, diuretic",2026-06-21 14:04:41
+70,Deverra tortuosa,البزرة الملتوية,Deverre tortueuse,Contorted deverra,Apiaceae,,,Libya,,0,"antimicrobial, antispasmodic, digestive, respiratory",2026-06-21 14:04:44
+71,Launaea arborescens,اللونية الشجرية,Launee arborescente,Tree launaea,Asteraceae,,,Libya,,0,"antidiabetic, anti-inflammatory, antioxidant, analgesic",2026-06-21 14:04:47
+72,Globularia arabica,الكرة العربية,Globulaire arabe,Arabian globularia,Plantaginaceae,,,Libya,,0,"antidiabetic, purgative, anti-inflammatory, antioxidant",2026-06-21 14:04:49
+73,Periploca laevigata,البريبلوكا الملساء,Periploque lisse,Smooth periploca,Apocynaceae,,,Libya,,0,"cardiotonic, antimicrobial, anti-inflammatory, antitumor",2026-06-21 14:04:52
+74,Hyphaene thebaica,نخيل الدوم,Palmier doum,Doum palm,Arecaceae,,,Egypt,,0,"antidiabetic, antioxidant, antihypertensive, nutritional",2026-06-21 14:10:16
+75,Moringa peregrina,المورينجا الصحراوية,Moringa du desert,Desert moringa,Moringaceae,,,Egypt,,0,"antimicrobial, antidiabetic, antioxidant, nutritional",2026-06-21 14:10:19
+76,Balanites aegyptiaca,الهجليج,Dattier du desert,Desert date,Zygophyllaceae,,,Egypt,,0,"antidiabetic, antimicrobial, anthelmintic, hepatoprotective",2026-06-21 14:10:22
+77,Calotropis procera,العشر,Arbre de soie,Apple of Sodom,Apocynaceae,,,Egypt,,0,"anti-inflammatory, antimicrobial, analgesic, antitumor (toxic latex)",2026-06-21 14:10:25
+78,Senna alexandrina,السنا المكي,Sene d'Alexandrie,Alexandrian senna,Fabaceae,,,Egypt,,0,"laxative, antimicrobial, antioxidant, antidiabetic",2026-06-21 14:10:27
+79,Nymphaea lotus,اللوتس الأبيض المصري,Lotus blanc d'Egypte,Egyptian white lotus,Nymphaeaceae,,,Egypt,,0,"anti-inflammatory, antidiabetic, antioxidant, sedative",2026-06-21 14:10:30
+80,Cleome droserifolia,الكليوم الغدي,Cleome a feuilles de drosera,Sticky spiderflower,Cleomaceae,,,Egypt,,0,"antidiabetic, antioxidant, anti-inflammatory, analgesic",2026-06-21 14:10:33
+81,Zilla spinosa,الزلة الشوكية,Zilla epineux,Spiny zilla,Brassicaceae,,,Egypt,,0,"antidiabetic, anti-inflammatory, antioxidant, diuretic",2026-06-21 14:10:36
+82,Pulicaria undulata,الرمرام,Pulicaire ondulee,Wavy pulicaria,Asteraceae,,,Egypt,,0,"antimicrobial, antioxidant, anti-inflammatory, respiratory",2026-06-21 14:10:39
+83,Anastatica hierochuntica,الكف مريم,Rose de Jericho,Rose of Jericho,Brassicaceae,,,Egypt,,0,"antidiabetic, anti-inflammatory, antioxidant, parturition (traditional)",2026-06-21 14:10:42
+84,Catharanthus roseus,الوانكا,Pervenche de Madagascar,Madagascar periwinkle,Apocynaceae,,,Morocco,,0,"antidiabetic, anticancer, antihypertensive, antimicrobial",2026-06-21 15:16:01
+85,Colchicum autumnale,سرنج الخريف,Colchique d'automne,Autumn crocus,Colchicaceae,,,Morocco,,0,"anti-gout, anti-inflammatory, antimitotic (highly toxic)",2026-06-21 15:16:04
+86,Hyoscyamus niger,البنج الأسود,Jusquiame noire,Black henbane,Solanaceae,,,Morocco,,0,"analgesic, antispasmodic, sedative, anti-inflammatory (toxic)",2026-06-21 15:16:07
+87,Vinca minor,الوانكا الصغيرة,Petite pervenche,Lesser periwinkle,Apocynaceae,,,Morocco,,0,"neuroprotective, antihypertensive, vasodilator, antidiabetic",2026-06-21 15:16:10
+88,Ruta graveolens,السذاب,Rue officinale,Common rue,Rutaceae,,,Morocco,,0,"antispasmodic, antimicrobial, antiparasitic, emmenagogue",2026-06-21 15:16:13
+89,Ferula tingitana,الكلح الطنجاوي,Ferule de Tanger,Tangier giant fennel,Apiaceae,,,Morocco,,0,"antispasmodic, antimicrobial, anticancer, anti-inflammatory",2026-06-21 15:16:16
+90,Inula viscosa,الراسن اللزج,Inule visqueuse,Sticky fleabane,Asteraceae,,,Morocco,,0,"antimicrobial, antidiabetic, anti-inflammatory, wound healing",2026-06-21 15:16:18
+91,Anacyclus pyrethrum,عقر قرحا,Pyrethre d'Afrique,Mount Atlas daisy,Asteraceae,,,Morocco,,0,"neuroprotective, aphrodisiac, analgesic, anti-inflammatory",2026-06-21 15:16:21
+92,Scilla maritima,عنصل البحر,Scille maritime,Sea squill (syn. Urginea maritima),Asparagaceae,,,Morocco,,0,"cardiotonic, diuretic, expectorant, antitumor (toxic; syn. Urginea maritima)",2026-06-21 15:16:24
+93,Mandragora autumnalis,اللفاح,Mandragore d'automne,Autumn mandrake,Solanaceae,,,Morocco,,0,"analgesic, sedative, aphrodisiac, antirheumatic (toxic)",2026-06-21 15:16:27
+94,Berberis hispanica,الأمبارباريس الإسباني,Epine-vinette d'Espagne,Spanish barberry,Berberidaceae,,,Morocco,,0,"antidiabetic, hepatoprotective, antimicrobial, anti-inflammatory",2026-06-21 15:23:19
+95,Trigonella foenum-graecum,الحلبة,Fenugrec,Fenugreek,Fabaceae,,,Morocco,,0,"antidiabetic, galactagogue, anti-inflammatory, hepatoprotective",2026-06-21 15:23:22
+96,Momordica charantia,قرع مر,Melon amer,Bitter melon,Cucurbitaceae,,,Morocco,,0,"antidiabetic, hepatoprotective, antimicrobial, antioxidant",2026-06-21 15:23:25
+97,Olea europaea,الزيتون,Olivier,Olive,Oleaceae,,,Morocco,,0,"antidiabetic, cardioprotective, anti-inflammatory, hepatoprotective, antihypertensive",2026-06-21 15:23:28
+98,Silybum marianum,شوك الجمل / السلبين,Chardon-Marie,Milk thistle,Asteraceae,,,Morocco,,0,"hepatoprotective, antioxidant, anticancer, antidiabetic",2026-06-21 15:23:31
+99,Cynara scolymus,الخرشوف,Artichaut,Globe artichoke,Asteraceae,,,Morocco,,0,"hepatoprotective, choleretic, antidiabetic, digestive",2026-06-21 15:23:34
+100,Tamarindus indica,التمر هندي,Tamarin,Tamarind,Fabaceae,,,Morocco,,0,"antidiabetic, laxative, anti-inflammatory, hepatoprotective",2026-06-21 15:23:37
+101,Phyllanthus emblica,الأملج,Groseillier des Indes,Indian gooseberry,Phyllanthaceae,,,Morocco,,0,"hepatoprotective, antioxidant, antidiabetic, anti-inflammatory, immunomodulatory",2026-06-21 15:23:40
+102,Boswellia sacra,اللبان الذكر,Encens sacré,Sacred frankincense,Burseraceae,,,Morocco,,0,"anti-inflammatory, hepatoprotective, anticancer, analgesic",2026-06-21 15:23:43
+103,Syzygium aromaticum,القرنفل,Clou de girofle,Clove,Myrtaceae,,,Morocco,,0,"antimicrobial, antidiabetic, analgesic, anti-inflammatory, antioxidant",2026-06-21 15:23:46
+104,Thymelaea hirsuta,المتنان,Thymelée hirsute,Hairy sparrowwort,Thymelaeaceae,,,Algeria,,0,"anticancer, antimicrobial, anti-inflammatory, wound healing",2026-06-21 15:27:01
+105,Pistacia atlantica,البطوم الأطلسي,Pistachier de l'Atlas,Mount Atlas mastic tree,Anacardiaceae,,,Algeria,,0,"antimicrobial, anticancer, anti-inflammatory, antioxidant",2026-06-21 15:27:07
+106,Juniperus oxycedrus,العرعر الشائك,Cade,Prickly juniper,Cupressaceae,,,Algeria,,0,"antimicrobial, anticancer, anti-inflammatory, dermatological",2026-06-21 15:27:11
+107,Calycotome spinosa,شوكة العجوز,Calycotome epineux,Spiny calycotome,Fabaceae,,,Algeria,,0,"anticancer, antimicrobial, anti-inflammatory, antioxidant",2026-06-21 15:27:14
+108,Atractylis gummifera,شوكة الجمل / الدردار,Chardon a glu,Carline thistle,Asteraceae,,,Algeria,,0,"anticancer, antihelminthic, anti-inflammatory (highly toxic)",2026-06-21 15:27:17
+109,Hertia cheirifolia,الحرتية,Hertia chéirifolia,Hertia,Asteraceae,,,Algeria,,0,"anticancer, antimicrobial, anti-inflammatory, antioxidant",2026-06-21 15:27:19
+110,Ammoides pusilla,النانخة الصغيرة,Ammoides pusilla,Small ammoides,Apiaceae,,,Algeria,,0,"antimicrobial, digestive, antispasmodic, antioxidant",2026-06-21 15:27:22
+111,Ormenis mixta,بابونج مغربي,Camomille marocaine,Moroccan chamomile,Asteraceae,,,Algeria,,0,"antimicrobial, anti-inflammatory, antispasmodic, antioxidant",2026-06-21 15:27:25
+112,Centaurea tougourensis,قنطريون التقرت,Centaurée de Touggourt,Touggourt centaurea,Asteraceae,,,Algeria,,0,"anticancer, antioxidant, anti-inflammatory, antimicrobial",2026-06-21 15:27:28
+113,Plantago major,لسان الحمل,Plantain majeur,Greater plantain,Plantaginaceae,,,Algeria,,0,"antimicrobial, wound healing, anti-inflammatory, gastroprotective",2026-06-21 15:27:31
+114,Ajuga chamaepitys,أيوجا الأرضية,Bugle petit-pin,Ground pine,Lamiaceae,,,Algeria,,0,"antidiabetic, anti-inflammatory, hepatoprotective, antioxidant",2026-06-22 18:23:26
+115,Scolymus hispanicus,الشوك الأصفر,Scolyme d'Espagne,Golden thistle,Asteraceae,,,Algeria,,0,"antidiabetic, hepatoprotective, diuretic, anti-inflammatory",2026-06-22 18:23:29
+116,Chrysanthemum trifurcatum,أقحوان ثلاثي الفروع,Chrysanthème trifurqué,Three-forked chrysanthemum,Asteraceae,,,Algeria,,0,"antidiabetic, antioxidant, anti-inflammatory, antimicrobial",2026-06-22 18:23:36
+117,Eryngium campestre,القنبر الحقلي,Panicaut champêtre,Field eryngo,Apiaceae,,,Algeria,,0,"antidiabetic, diuretic, anti-inflammatory, antimicrobial",2026-06-22 18:23:39
+118,Teucrium polium,الجعدة,Germandrée tomenteuse,Felty germander,Lamiaceae,,,Algeria,,0,"antidiabetic, hepatoprotective, anti-inflammatory, antimicrobial",2026-06-22 18:23:42
+119,Salvia verbenaca,المريمية البرية,Sauge fausse-verveine,Wild clary sage,Lamiaceae,,,Algeria,,0,"antidiabetic, antioxidant, anti-inflammatory, antimicrobial",2026-06-22 18:23:46
+120,Scorzonera undulata,سكورزونيرا مموجة,Scorzonère ondulée,Wavy scorzonera,Asteraceae,,,Algeria,,0,"antidiabetic, hepatoprotective, digestive, antioxidant",2026-06-22 18:23:55
+121,Centaurium pulchellum,قنطريون صغير,Petite centaurée élégante,Slender centaury,Gentianaceae,,,Algeria,,0,"hepatoprotective, antidiabetic, digestive, antipyretic",2026-06-22 18:23:59
+122,Echium vulgare,لسان الثور الشائع,Vipérine commune,Viper's bugloss,Boraginaceae,,,Algeria,,0,"anti-inflammatory, antioxidant, antimicrobial, expectorant",2026-06-22 18:24:04
+123,Paronychia argentea,الفضية,Paronyque argentée,Silver nailwort,Caryophyllaceae,,,Algeria,,0,"hepatoprotective, gastroprotective, antioxidant, diuretic",2026-06-22 18:24:08
+124,Limonium sinuatum,خزامى البحر,Lavande de mer,Sea lavender,Plumbaginaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, wound healing",2026-06-22 18:29:51
+125,Salicornia europaea,السالكورنيا الأوروبية,Salicorne d'Europe,Common glasswort,Amaranthaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, nutritional",2026-06-22 18:29:55
+126,Tamarix gallica,الأثل الفرنسي,Tamaris de France,French tamarisk,Tamaricaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, hepatoprotective",2026-06-22 18:30:00
+127,Inula crithmoides,أيولا الصخور,Inule fausse criste-marine,Golden samphire,Asteraceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, antidiabetic",2026-06-22 18:30:04
+128,Arthrocnemum macrostachyum,القصيص الكبير,Arthrocnème à gros épis,Shrubby glasswort,Amaranthaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, halophyte medicine",2026-06-22 18:30:09
+129,Juncus maritimus,السمار البحري,Jonc maritime,Sea rush,Juncaceae,,,Tunisia,,0,"antioxidant, antimicrobial, diuretic, anti-inflammatory",2026-06-22 18:30:14
+130,Spartina alterniflora,إسبارتينا ملساء,Spartine alterniflore,Smooth cordgrass,Poaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory",2026-06-22 18:30:19
+131,Medicago sativa,الفصفصة,Luzerne,Alfalfa,Fabaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, nutritional, estrogenic",2026-06-22 18:30:24
+132,Vitex agnus-castus,الخروع البري,Gattilier,Chaste tree,Lamiaceae,,,Tunisia,,0,"antimicrobial, antioxidant, anti-inflammatory, hormonal",2026-06-22 18:30:30
+133,Lycium europaeum,العوسج الأوروبي,Lyciet d'Europe,European boxthorn,Solanaceae,,,Tunisia,,0,"antioxidant, antimicrobial, anti-inflammatory, hepatoprotective",2026-06-22 18:30:35
+134,Capparis decidua,الشفلح / أبو ليله,Câprier décidu,Capertree,Capparaceae,,,Libya,,0,"antidiabetic, antimicrobial, antioxidant, anti-inflammatory",2026-06-22 18:45:06
+135,Ficus salicifolia,التين الصفصافي,Figuier à feuilles de saule,Willow-leaf fig,Moraceae,,,Libya,,0,"antimicrobial, antidiabetic, anti-inflammatory, antioxidant",2026-06-22 18:45:09
+136,Helianthemum lippii,هليانثيم لبي,Hélianthème de Lippi,Lippi's sun rose,Cistaceae,,,Libya,,0,"antimicrobial, antioxidant, anti-inflammatory, wound healing",2026-06-22 18:45:30
+137,Pulicaria crispa,الرمث الصفراء / بلصان الصحراء,Pulicaire frisée,Crispy fleabane,Asteraceae,,,Libya,,0,"antimicrobial, antidiabetic, antioxidant, antispasmodic",2026-06-22 18:45:42
+138,Alhagi maurorum,الحاج / شوك الجمل,Alhagi / Plante du chameau,Camelthorn,Fabaceae,,,Libya,,0,"antidiabetic, diuretic, antioxidant, hepatoprotective",2026-06-22 18:45:47
+139,Launaea nudicaulis,الزعيرور / الطاقة الصحراوية,Launée à tige nue,Naked-stemmed launaea,Asteraceae,,,Libya,,0,"antidiabetic, antimicrobial, antioxidant, anti-inflammatory",2026-06-22 18:46:07
+140,Hammada scoparia,الحمض / رمث البادية,Hammada scopaire,Scoparia hammada,Amaranthaceae,,,Libya,,0,"antidiabetic, diuretic, antioxidant, hepatoprotective",2026-06-22 18:46:19
+141,Ephedra nebrodensis,العلندى / هضاب نبرود,Éphèdre de Nébrod,Nebrodan ephedra,Ephedraceae,,,Libya,,0,"antimicrobial, antioxidant, bronchodilator, anti-inflammatory",2026-06-22 18:46:31
+142,Drimia numidica,العنصل النوميدي,Drimie numide,Numidian squill,Asparagaceae,,,Libya,,0,"cytotoxicity, cardiotonic, antimicrobial, diuretic",2026-06-22 18:46:43
+143,Pergularia tomentosa,العشرق / البرقة,Pergulaire tomenteuse,Tomentose pergularia,Apocynaceae,,,Libya,,0,"anticancer, hepatoprotective, anti-inflammatory, antimicrobial",2026-06-22 18:55:13
+144,Calligonum comosum,الأرطى / العرتج,Calligone comu,Desert rhubarb / Artouj,Polygonaceae,,,Libya,,0,"hepatoprotective, antioxidant, anti-inflammatory, diuretic",2026-06-22 18:55:33
+145,Thymelaea microphylla,متنان صغير الأوراق,Thyméléa à petites feuilles,Small-leaved thymelaea,Thymelaeaceae,,,Libya,,0,"anticancer, anti-inflammatory, antimicrobial, antioxidant",2026-06-22 18:55:45
+146,Crucianella maritima,الصليبية البحرية,Crucianelle maritime,Sea crosswort,Rubiaceae,,,Libya,,0,"antioxidant, anti-inflammatory, diuretic, hepatoprotective",2026-06-22 18:55:56
+147,Salsola vermiculata,الشنان / الحمض الدودي,Soude vermiculée,Worm saltbush,Amaranthaceae,,,Libya,,0,"antidiabetic, hepatoprotective, antioxidant, diuretic",2026-06-22 18:56:07
+148,Limonium pruinosum,الخزامى البحرية المرمدية,Limonium pruineux,Pruinose sea lavender,Plumbaginaceae,,,Libya,,0,"antimicrobial, antioxidant, anti-inflammatory, astringent",2026-06-22 18:56:28
+149,Otostegia fruticosa,حميضة / حشيشة الشاة,Otostégie frutescente,Shrubby otostegia,Lamiaceae,,,Libya,,0,"hepatoprotective, antioxidant, anti-inflammatory, antimicrobial",2026-06-22 18:56:42
+150,Fagonia arabica,الشكاعا / الشوك العربي,Fagonie arabe,Arabian fagonia,Zygophyllaceae,,,Libya,,0,"anticancer, antidiabetic, antioxidant, anti-inflammatory",2026-06-22 18:56:55
+151,Leptadenia pyrotechnica,المرخ / الخرمة,Leptadénie pyrotechnique,Markh / Fire plant,Apocynaceae,,,Libya,,0,"hepatoprotective, antioxidant, anti-inflammatory, anticancer",2026-06-22 18:57:15
+152,Cornulaca monacantha,الهرم / نجم الصحراء,Cornulaque monacanthe,One-spined cornulaca,Amaranthaceae,,,Libya,,0,"antioxidant, anti-inflammatory, hepatoprotective, antimicrobial",2026-06-22 18:57:31
+153,Citrullus colocynthis,الحنظل / شجرة العلقم,Coloquinte,Bitter apple / Colocynth,Cucurbitaceae,,,Egypt,,0,"antidiabetic, antimicrobial, anti-inflammatory, cathartic",2026-06-22 19:06:56
+154,Hibiscus sabdariffa,الكركدية / العناب الأحمر,Oseille de Guinée / Bissap,Roselle,Malvaceae,,,Egypt,,0,"antioxidant, antidiabetic, antimicrobial, antihypertensive",2026-06-22 19:07:09
+155,Ammi majus,الخلة / الأمي الكبير,Grande ammi,Bishop's flower / Large bullwort,Apiaceae,,,Egypt,,0,"antimicrobial, antifungal, antidiabetic, anti-inflammatory",2026-06-22 19:07:09
+156,Trigonella stellata,حلبة النجمة,Fénugrec étoilé,Star fenugreek,Fabaceae,,,Egypt,,0,"antidiabetic, antioxidant, anti-inflammatory, galactagogue",2026-06-22 19:07:10
+157,Echinops spinosus,الشوكة الكروية / القنفذية,Echinope épineux,Spiny globe thistle,Asteraceae,,,Egypt,,0,"antimicrobial, anticancer, antidiabetic, anti-inflammatory",2026-06-22 19:07:11
+158,Centaurea aegyptiaca,القنطريون المصري,Centaurée égyptienne,Egyptian knapweed,Asteraceae,,,Egypt,,0,"antidiabetic, antioxidant, anti-inflammatory, diuretic",2026-06-22 19:07:11
+159,Atropa belladonna,البلادونا / الغانية,Belladone,Deadly nightshade,Solanaceae,,,Egypt,,0,"anticholinergic, analgesic, antimicrobial, antispasmodic",2026-06-22 19:07:12
+160,Cymbopogon proximus,الحلفا / حشيشة الجمل,Cymbopogon proche,Halfa grass / Camel grass,Poaceae,,,Egypt,,0,"antidiabetic, antimicrobial, diuretic, antispasmodic",2026-06-22 19:07:12
+161,Acacia nilotica,الطلح / سنط النيل,Acacia du Nil,Egyptian acacia / Gum arabic tree,Fabaceae,,,Egypt,,0,"antimicrobial, antidiabetic, wound healing, astringent",2026-06-22 19:07:13
+162,Hyoscyamus muticus,البنج المصري / الشوكران,Jusquiame égyptienne,Egyptian henbane,Solanaceae,,,Egypt,,0,"anticancer, antispasmodic, antimicrobial, analgesic",2026-06-22 19:15:23
+163,Solanum nigrum,عنب الذئب / الدوالة السوداء,Morelle noire,Black nightshade,Solanaceae,,,Egypt,,0,"anticancer, hepatoprotective, anti-inflammatory, antioxidant",2026-06-22 19:15:36
+164,Datura metel,الداتورا / الجوزة الشوكية,Datura metel,Devil's trumpet / Metel,Solanaceae,,,Egypt,,0,"antispasmodic, anticholinergic, analgesic, antimicrobial",2026-06-22 19:15:52
+165,Crinum bulbispermum,زنبق الكرين / بصل الكرين,Crinole à graines bulbeuses,Bulb crinum lily,Amaryllidaceae,,,Egypt,,0,"anticancer, antiviral, antifungal, antidiabetic",2026-06-22 19:15:58
+166,Pancratium arabicum,الزنبق العربي,Pancrace d'Arabie,Arabian pancratium,Amaryllidaceae,,,Egypt,,0,"anticancer, antifungal, antimicrobial, antiviral",2026-06-22 19:16:01
+167,Narcissus tazetta,نرجس الطازيتا / الزنبق المتعدد,Narcisse tazette,Bunch-flowered narcissus / Tazetta daffodil,Amaryllidaceae,,,Egypt,,0,"neuroprotective, anticancer, antiviral, antifungal",2026-06-22 19:16:05
+168,Urginea undulata,العنصل المتموج,Scille ondulée,Undulate sea squill,Asparagaceae,,,Egypt,,0,"anticancer, cardiotonic, diuretic, antimicrobial",2026-06-22 19:16:10
+169,Veratrum album,الخربق الأبيض,Vératre blanc / Hellébore blanc,White hellebore / False hellebore,Melanthiaceae,,,Egypt,,0,"anticancer, antihypertensive, anti-inflammatory, antiparasitic",2026-06-22 19:16:14
+170,Colchicum ritchii,سورنجان ريتشي,Colchique de Ritchie,Ritchie's colchicum,Colchicaceae,,,Egypt,,0,"anticancer, anti-inflammatory, antigout, antimitotic",2026-06-22 19:16:16
+171,Gloriosa superba,زهرة المجد / الزنبق المتألق,Gloriosa superbe / Lis de gloire,Flame lily / Glory lily,Colchicaceae,,,Egypt,,0,"anticancer, antimitotic, anti-inflammatory, antifungal",2026-06-22 19:16:21
