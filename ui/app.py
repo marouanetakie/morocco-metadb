@@ -10,6 +10,8 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+import requests
+
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import pandas as pd
@@ -281,6 +283,21 @@ def cached_top_cytotoxic(n=10):
     except Exception:
         return pd.DataFrame()
 
+@st.cache_data(ttl=3600)
+def get_north_africa_geojson():
+    url = "https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson"
+    try:
+        r = requests.get(url, timeout=10)
+        data = r.json()
+        target = {"MAR", "DZA", "TUN", "LBY", "EGY", "ESH"}
+        data["features"] = [
+            f for f in data["features"]
+            if f["properties"].get("ISO_A3") in target
+        ]
+        return data
+    except Exception:
+        return None
+
 # ── Plotly theme helper ────────────────────────────────────────────────────
 PLOTLY_COLORS = ["#2d9e6b", "#0a2d1e", "#69d9a0", "#1a5c3a", "#a8d5b5",
                  "#3dbf87", "#d4e8dd", "#4a7a5c", "#c8f0d8", "#0d3d28"]
@@ -386,50 +403,51 @@ if page == "Dashboard":
 
     with col_map:
         st.subheader("Plants per Country")
-        fig_map = go.Figure(go.Choropleth(
-            locationmode="ISO-3",
-            locations=["MAR", "DZA", "TUN", "LBY", "EGY"],
-            z=[63, 30, 20, 29, 29],
-            text=[
-                "Morocco — 63 plants",
-                "Algeria — 30 plants",
-                "Tunisia — 20 plants",
-                "Libya — 29 plants",
-                "Egypt — 29 plants",
-            ],
-            hovertemplate="%{text}",
-            colorscale=[
-                [0.0, "#c8e6c9"],
-                [0.3, "#66bb6a"],
-                [0.6, "#2e7d32"],
-                [1.0, "#0a2d1e"],
-            ],
-            autocolorscale=False,
-            marker_line_color="white",
-            marker_line_width=1.5,
-            colorbar=dict(title=dict(text="Plants"), thickness=12, len=0.6),
-        ))
-        fig_map.update_layout(
-            height=450,
-            margin=dict(l=0, r=0, t=10, b=0),
-            paper_bgcolor="white",
-            geo=dict(
-                visible=False,
-                resolution=50,
-                showland=True,
-                landcolor="#f0f0f0",
-                showocean=True,
-                oceancolor="#ddeeff",
-                showcoastlines=True,
-                coastlinecolor="#aaaaaa",
-                showcountries=True,
-                countrycolor="#dddddd",
-                lonaxis=dict(range=[-20, 42]),
-                lataxis=dict(range=[14, 38]),
-                projection_type="equirectangular",
-            ),
-        )
-        st.plotly_chart(fig_map, use_container_width=True)
+        geojson = get_north_africa_geojson()
+        country_data_map = {
+            "MAR": {"name": "Morocco",          "plants": 63, "color": "#0a2d1e"},
+            "ESH": {"name": "Western Sahara",   "plants": 63, "color": "#0a2d1e"},
+            "DZA": {"name": "Algeria",          "plants": 30, "color": "#2e7d32"},
+            "EGY": {"name": "Egypt",            "plants": 29, "color": "#388e3c"},
+            "LBY": {"name": "Libya",            "plants": 29, "color": "#388e3c"},
+            "TUN": {"name": "Tunisia",          "plants": 20, "color": "#66bb6a"},
+        }
+        if geojson:
+            fig_map = go.Figure()
+            for feature in geojson["features"]:
+                iso = feature["properties"].get("ISO_A3", "")
+                if iso in country_data_map:
+                    info = country_data_map[iso]
+                    display_name = (
+                        "Morocco (incl. Western Sahara)" if iso == "ESH"
+                        else info["name"]
+                    )
+                    fig_map.add_trace(go.Choroplethmapbox(
+                        geojson={"type": "FeatureCollection", "features": [feature]},
+                        locations=[iso],
+                        featureidkey="properties.ISO_A3",
+                        z=[info["plants"]],
+                        colorscale=[[0, info["color"]], [1, info["color"]]],
+                        showscale=False,
+                        marker_opacity=0.85,
+                        marker_line_width=1.5,
+                        marker_line_color="white",
+                        hovertemplate=f"{display_name}<br>{info['plants']} plants<extra></extra>",
+                    ))
+            fig_map.update_layout(
+                mapbox=dict(
+                    style="carto-positron",
+                    center=dict(lat=28, lon=10),
+                    zoom=2.8,
+                ),
+                height=450,
+                margin=dict(l=0, r=0, t=10, b=0),
+                paper_bgcolor="white",
+                showlegend=False,
+            )
+            st.plotly_chart(fig_map, use_container_width=True)
+        else:
+            st.info("Map unavailable — check internet connection.")
 
     with col_cls:
         st.subheader("Compound Classes")
