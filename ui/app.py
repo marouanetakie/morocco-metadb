@@ -1098,6 +1098,7 @@ elif page == "Submit Data":
         if pwd == "admin123":
             try:
                 conn = sqlite3.connect(DB_PATH)
+                conn.row_factory = sqlite3.Row
                 rows = conn.execute(
                     "SELECT * FROM pending_submissions ORDER BY submitted_at DESC"
                 ).fetchall()
